@@ -1,0 +1,60 @@
+.input-box{
+    text-align: center;
+    align-items: end;
+    display: flex;
+    margin-left: 200px;
+    justify-content: end;
+}
+.text{
+    padding: 5px 100px 5px 0px;
+    margin-top: 40px;
+}
+.disease-container{
+    width: 80%;
+}
+.input-box img{
+    transform: translateX(-150%);
+}
+.backendImage{
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.main-backend{
+    border: 2px solid black;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgba(0, 85, 135, 0.5);;
+}
+.symptoms{
+    display: flex;
+    margin-top: 40px;
+    /* margin-left: 30px; */
+    
+}
+.main-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-backend img {
+    margin : 20px;
+    padding: 20px;
+}
+.main-button button{
+    padding: 10px 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.main-button button:hover{
+    background-color: #005587;
+    color: white;
+}
+.main-backend div{
+    text-align: center;
+}
