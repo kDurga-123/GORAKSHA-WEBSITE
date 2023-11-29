@@ -1,0 +1,169 @@
+
+nav {
+  background-color: #005587;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.title {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 100px;
+}
+
+.menu {
+  display: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-right: 40px;
+  margin-top: 15px;
+}
+
+ul li:last-child {
+  margin-right: 100px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: lightgrey;
+}
+
+.login a {
+  background-color: #00f;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.login a:hover {
+  background-color: #555;
+}
+
+
+nav .menu {
+  display: none;
+  position: absolute;
+  top: 12px;
+  right: 8px;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 36px;
+  height: 32px;
+}
+
+nav .menu span {
+  height: 4px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+
+@media (max-width: 480px) {
+  nav .menu {
+    display: flex;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 4px;
+  }
+
+  ul.open {
+    display: flex;
+  }
+
+  ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  ul li a {
+    margin: 10px;
+  }
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown span {
+  color: #fff; 
+}
+
+.dropdown .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #005587;
+  color: #fff;
+  padding: 10px;
+}
+
+.dropdown:hover .submenu {
+  display: block;
+}
+
+
+
+.dropdown span {
+  color: #fff; 
+}
+
+.dropdown .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #005587;
+  color: #fff;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 

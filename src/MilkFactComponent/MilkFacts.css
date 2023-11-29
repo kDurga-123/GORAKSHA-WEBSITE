@@ -1,0 +1,240 @@
+#container{
+    background-color: teal;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    font-family: 'Poppins'sans-serif;
+}
+.image-container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins'sans-serif;
+}
+.main-div{
+    height: 1000px;
+    width: 100%;
+    background-color:teal ;
+    font-family: 'Poppins'sans-serif;
+}
+.image{
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    font-family: 'Poppins'sans-serif;
+}
+.weather{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins'sans-serif;
+}
+.milk-image{
+    margin-left: 200px;
+    margin-top: 30px;
+    font-family: 'Poppins'sans-serif;
+}
+.milk-fact-container{
+    display: flex;
+    font-family: 'Poppins'sans-serif;
+}
+.milk{
+    margin-right: 200px;
+}
+.milk h1
+{
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+    font-family: 'Poppins'sans-serif;
+}
+.milk div{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    line-height: 2.0;
+    font-family: 'Poppins'sans-serif;
+}
+.first{
+    margin-top: 50px;
+    border: 2px solid white;
+    background-color: white;
+    width: 700px;
+    margin-left: 375px;
+
+}
+.second{
+    width: 700px;
+    margin: auto;
+    border: 2px solid white;
+    background-color: white;
+}
+#secound-contaner{
+    margin-top: 50px;
+    height: 600px;
+    width: 80%;
+    margin-left: 150px;
+    margin-right: 100px;
+    background-color: navy;
+    text-align: center;
+    font-family: 'Poppins'sans-serif;
+}
+#secound-contaner ol {
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    font-family: 'Poppins'sans-serif;
+}
+.starignt{
+    text-align: center;
+    color: white;
+   padding-top: 30px;
+   padding-bottom: 10px;
+   font-family: 'Poppins'sans-serif;
+
+}
+.milk-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins'sans-serif;
+}
+.brocalli{
+    margin-top: 50px;
+    padding: 30px;
+    font-family: 'Poppins'sans-serif;
+}
+.div{
+    font-size: 45px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Poppins'sans-serif;
+}
+.colour{
+    height: 700px;
+    width: 100%;
+    background-color:#7bdcb5 ;
+    font-family: 'Poppins'sans-serif;
+}
+.about-milk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins'sans-serif;
+}
+.about-milk img{
+    margin-top: 30px;
+}
+.drinking-milk{
+    font-size: 40px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Poppins'sans-serif;
+}
+.meaningful img{
+    margin-left: 20px;
+    margin-top: 40px;
+    font-family: 'Poppins'sans-serif;
+}
+.meaningful div{
+    font-size: 65px;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 150px;
+    margin-top: 60px;
+    font-family: 'Poppins'sans-serif;
+
+}
+.meaningful{
+    display: flex;
+
+}
+.fix{
+    height: 450px;
+    width: 100%;
+    background-color: #1d242d;
+    display: flex;
+    padding-top: 40px;
+    font-family: 'Poppins'sans-serif;
+}
+.Strengthen{
+    color: white;
+}
+.bones{
+    height: 300px;
+    width: 550px;
+    margin-left: 100px;
+    font-family: 'Poppins'sans-serif;
+}
+
+.empty{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.bones div{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Poppins'sans-serif;
+    color: white;
+}
+.Strengthen{
+    text-align: center;
+    font-family: 'Poppins'sans-serif;
+}
+.final-image{
+    margin-left: 130px;
+    width: 85%;
+    height: 400px;
+    margin-right: 100px;
+    margin-top: 20px;
+    font-family: 'Poppins'sans-serif;
+}
+.ter{
+    margin-top: 3300px;
+}
+
+
+.image:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  
+  .milk-image:hover {
+    opacity: 0.8;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .brocalli:hover {
+    transform: rotate(360deg);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .about-milk img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .lastgraphic img:hover {
+    transform: rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .final-image:hover {
+    opacity: 0.8;
+    transition: opacity 0.5s ease-in-out;
+  }
+   .milk div{
+    margin-left: 200px;
+   }
+   /* .image{
+    margin-left: 600px;
+
+   } */

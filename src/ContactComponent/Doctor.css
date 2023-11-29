@@ -1,0 +1,51 @@
+.fox {
+    
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 30px 30px;
+    background-color: lightgrey;
+  }
+  
+  .fox img {
+    height: 250px;
+    width: auto;
+  }
+  
+  .main-con {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .fox .distance {
+   
+    margin-left: 50px;
+  }
+  
+  .fox .Book {
+    
+    margin-left: 50px;
+  }
+  
+  .fox #Book {
+    margin-right: 70px;
+    margin-left: -100px;
+    margin-top: 20px;
+  }
+  
+  .fox #distance {
+    margin-left: auto;
+    margin-top: -70px;
+    margin-left: 200px;
+  }
+  .accessible div{
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,188 @@
+/* .input-box{
+    align-items: end;
+    justify-content: end;
+    display: flex;
+}
+.text{
+    padding: 5px 100px 5px 5px;
+    margin-top: 40px;
+    background-color: #fff;
+    border: black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.main-backend{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.disease-container{
+    width: 90%;
+    border: 2px solid black;
+    margin: auto;
+}
+.input-box img{
+    transform: translateX(-150%);
+    margin-bottom: 10px;
+}
+.backendImage{
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.main-backend{
+    border: 2px solid black;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgba(0, 85, 135, 0.5);;
+}
+.symptoms{
+    display: flex;
+    margin-top: 40px;
+    width: 500px;
+    margin-left: 30px;
+    
+}
+.main-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-backend img {
+    margin : 20px;
+    padding: 20px;
+}
+.main-button button{
+    padding: 10px 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.main-button button:hover{
+    background-color: #005587;
+    color: white;
+}
+.main-backend div{
+    text-align: center;
+}  */
+
+
+.input-box {
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.text {
+    padding: 5px 20px 5px 5px;
+    margin-top: 40px;
+    background-color: #fff;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 5px, rgba(0, 0, 0, 0.12) 0px -1px 3px, rgba(0, 0, 0, 0.12) 0px 2px 2px, rgba(0, 0, 0, 0.17) 0px 6px 6px, rgba(0, 0, 0, 0.09) 0px -1px 1px;
+}
+
+.disease-container {
+    width: 90%;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.input-box img {
+    transform: translateX(-150%);
+    margin-bottom: 10px;
+}
+
+.backendImage {
+    height: 300px;
+    width: 300px;
+   margin-top: 30px;
+}
+
+.main-backend {
+    /* display: flex; */
+    flex-wrap: wrap;
+    width: 400px;
+    background-color: honeydew;
+    border: 2px solid black;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+
+.main-backend .main-backend {
+    width: 30%;
+    margin: 1%;
+}
+.main-backend .main-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-backend .main-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.main-backend .main-button button:hover {
+    background-color: #005587;
+    color: white;
+}
+
+.main-backend .main-backend div {
+    text-align: center;
+}
+
+.symptoms {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+.announce{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alredy{
+    border: black;
+    background-color: red;
+}
+.kit{
+    margin-top: 50px;
+}
+.main-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #005587;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.main-button button:hover {
+    background-color: #003d4c; /* Darker shade when hovered */
+}
+.disease_name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+    color: #333; /* Set text color */
+}
