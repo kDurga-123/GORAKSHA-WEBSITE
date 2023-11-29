@@ -1,0 +1,100 @@
+#physiological{
+    display: block;
+}
+.list{
+    list-style-type: disc;
+}
+.winter{
+    width: 90%;
+    margin: auto;
+}
+.management{
+    border: 30px solid #005587;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+.management h1{
+    text-align: center;
+}
+.img{
+    width: 100%;
+    height: 600px;
+}
+.stress{
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: black;
+}
+.stress img{
+    height: 280px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 60px;
+
+}
+.stress img:nth-child(2) {
+    display: block;
+}
+.stress h2{
+    color: white;
+}
+.stress ul{
+    color: white;
+}
+.physiological{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.cold{
+        background-color: lightgray;
+        height: 300px;
+        padding: 10px 100px; 
+        margin: 0 -70px;
+        padding-bottom: 20px;
+}
+.cold h2{
+    margin-top: 20px;
+}
+.effects{
+    margin-left: 80px;
+}
+.Protective{
+    border: 30px solid #005587;
+    margin-top: 30px;
+    border-radius: 100px;
+    padding: 20px;
+    width: 70%;
+    font-size: 10px;
+    height: 600px;
+    background-color: paleturquoise;
+    margin: auto;
+    margin-top: 30px;
+
+}
+.Protective:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+#measures{
+    display: flex;
+    background-color: red;
+}
+.physiological{
+    margin-left: 70px;
+}
+.insulation{
+    margin-left: 70px;
+}
+.redudena{
+    margin-left: 70px;
+}
+.tip{
+    margin-left: 70px;
+}
+.All_images{
+    width: 600px;
+}

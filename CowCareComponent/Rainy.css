@@ -1,0 +1,24 @@
+.content-container h2{
+    color: #005587;
+    margin-top: 30px;
+}
+.caring-container{
+    margin-left: 300px;
+}
+.content-container h3{
+    color: navy;
+}
+.string{
+    border: 2px solid black;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.all-images img {
+    height: 300px;
+    width: 100%;
+    margin-top: 30px;
+}
