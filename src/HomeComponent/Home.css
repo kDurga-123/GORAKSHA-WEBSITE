@@ -1,0 +1,209 @@
+.container
+{
+    display: flex;
+}
+.quote
+{
+    font-size: 50px;
+    margin-top: 100px;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Poltawski Nowy', serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    width: 600px;
+   
+}
+.animation
+{
+    height: 600px;
+    width: 600px;
+    margin-left: 50px;
+}
+.motherCow
+{
+    margin-left: 130px;
+    margin-top: 100px;
+
+}
+.childCow
+{
+    margin-left: 300px;
+    margin-top: -50px;
+}
+hr.new {
+    border: 7px solid #000102;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.why
+{
+    text-align: center;
+    color: #005587;
+}
+.boxContainer
+{
+    display: flex;
+    margin: 0 auto;
+
+}
+.value1
+{
+    padding: 20px 20px;
+    margin-left: 100px;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #c15252;
+    color: white;
+}
+
+.value2{
+    padding: 20px 21px;
+    font-size: 18px;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: #c15252;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+.value3
+{
+    padding: 32px 25px;
+    margin-right: 100px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-left: 35px;
+    background-color: #c15252;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.ourplateform
+{
+    margin-top: 40px;
+   padding: 50px;
+    width: 100%;
+    display: flex;
+    background-color: beige;
+}
+.our
+{
+    color: #005587;
+    margin-left: 200px;
+    padding-top: 50px;
+}
+.imagesAndContent div
+{
+    display: flex;
+}
+.adjest{
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.offline{
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.adjest1{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.offline1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.get
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.starting{
+    display: flex;
+    margin: 0 auto;
+}
+.starting div img{
+    margin-left: 200px;
+}
+.starting div h3{
+    margin-left: 240px;
+}
+.starting div img:hover{
+    height: 160px;
+    width: 200px;
+}
+.doctor{
+    background-color: #71c5e8;
+    display: flex;
+    padding: 40px;
+    margin-top: 50px;
+}
+.doctor div img{
+    margin-left: 100px;
+    height: 300px;
+}
+.doctor div h2{
+    margin-left: 50px;
+    color: #005587;
+}
+.information
+{
+    margin-left: 50px;
+}
+.cattle{
+    margin-left: 50px;
+}
+.unoredred{
+    margin-left: 30px;
+    display: block;
+}
+.unoredred li{
+    list-style: disc;
+}
+b{
+    color: #005587;
+}
+.trust{
+    text-align: center;
+    color: #005587;
+    margin-top: 60px;
+}
+.farmersReview{
+    text-align: center;
+    margin-top: 40px;
+}
+.farmer{
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+.farmer:nth-child(1){
+    margin-left: 130px;
+}
+.review{
+    display: flex;
+}
+.button{
+    padding: 10px 30px;
+    font-size: 18px;
+    color: white;
+    border-radius: 20px;
+    background-color: #005587;
+    margin-left: 610px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.button:hover{
+    color: lightgrey;
+}
+iframe{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 350px;
+}
+
+

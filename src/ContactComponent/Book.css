@@ -1,0 +1,40 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+  
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.alert {
+    margin-bottom: 20px;
+}
+  
+.form-group {
+    margin-bottom: 20px;
+}
+  
+.table {
+    margin-top: 20px;
+}
+.successMessage{
+    text-align: center;
+}
+.provide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+  
+.entire-form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+  

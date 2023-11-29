@@ -1,0 +1,28 @@
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+.logim{
+  text-align: center;
+}
+
+.form-input {
+  margin-bottom: 15px;
+}
+
+.form-btn {
+  margin-top: 10px;
+}
+.react-phone-number-input__icon {
+  display: none !important;
+}

@@ -1,5 +1,6 @@
 import './App.css';
-import Allfolders from './ALLFolder/allfolder';
+import Allfolders from './ALLFolder/AllFolders';
+
 function App() {
   return (
     <div className="App">
