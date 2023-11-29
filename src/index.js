@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Provider } from 'react-redux';
 import { store } from './Redux/Store';
+
 import { ChakraProvider } from '@chakra-ui/react';
 import { theme } from '@chakra-ui/react';
 
@@ -19,6 +20,8 @@ root.render(
     <ChakraProvider theme={theme}>
     <App />
     </ChakraProvider>
+
+    <App />
     </BrowserRouter>
     
   </React.StrictMode>
