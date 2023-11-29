@@ -1,0 +1,135 @@
+.background-images {
+    width: 100%;
+    height: 500px;
+    background-image: url(/public/Resouces/cows-grazing.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 50px;
+}
+.vedio{
+    height: 300px;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: -10px;
+
+}
+.main-contianer{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.care{
+    width: 600px;
+    margin-left: 40px;
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Poppins'sans-serif;
+}
+.second-container{
+    width: 600px;
+    
+}
+.care h1{
+    margin-top: 40px;
+}
+.care div{
+    margin-top: 40px;
+}
+.button-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.know{
+    padding: 15px 40px 15px 40px;
+    border-radius: 7px;
+    background-color: rgb(240, 39, 39);
+    font-size: 20px;
+}
+.mother{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Poppins'sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    color: #005587;
+
+}
+.comfort{
+    height: 350px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+
+}
+.cow{
+    height: 300px;
+    width: 550px;
+}
+.temp{
+    height: 300px;
+    width: 550px;
+    margin-left: 50px;
+    width: 500px;
+}
+.temp img{
+    width: 550px;
+    height: 300px;
+}
+.cow div{
+    text-align: center;
+    font-family: 'Poppins'sans-serif;
+    margin-top: 30px;
+}
+.cow h1{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Poppins'sans-serif;
+}
+.calf{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+
+}
+.calf img{
+    width: 500px;
+    height: 500px;
+}
+.calf div{
+    text-align: center;
+    font-family: 'Poppins'sans-serif;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.barn img{
+    height: 400px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+} 
+.housing{
+    height: 450px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    margin-top: 50px;
+}
+.dairy h1{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Poppins'sans-serif;
+}
+.dairy div{
+    margin-top: 30px;
+    margin-right: 40px;
+    text-align: center;
+    
+    font-family: 'Poppins'sans-serif;
+}
